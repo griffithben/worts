@@ -1,1 +1,1 @@
-web: ruby -run -e httpd -p $PORT .
+web: vendor/bin/heroku-php-apache2 ./
