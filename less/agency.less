@@ -80,7 +80,7 @@ h1, h3, h4, h5, h6 {
 }
 
 .btn-xl {
-    .button-variant(white; @theme-primary; @theme-primary);
+    .button-variant(@gray-darker; @theme-primary; @theme-primary);
     .heading-font;
     font-weight: 700;
     border-radius: 3px;
@@ -134,12 +134,12 @@ h1, h3, h4, h5, h6 {
     }
     .navbar-nav>.active>a {
         border-radius: 0;
-        color: white;
+        color: @gray-darker;
         background-color: @theme-primary;
     }
     .navbar-nav>.active>a:hover,
     .navbar-nav>.active>a:focus {
-        color: white;
+        color: @gray-darker;
         background-color: darken(@theme-primary, 10%);
     }
 }
@@ -544,7 +544,7 @@ aside.clients {
 
 // Contact Section
 
-section#contact {
+section#subscribe {
     background-color: @gray-darker;
     background-image: url('../img/map-image.png');
     background-position: center;
@@ -557,6 +557,7 @@ section#contact {
         input,
         textarea {
             padding: 20px;
+            .heading-font;
         }
         input.form-control {
             height: auto;
@@ -572,22 +573,22 @@ section#contact {
     ::-webkit-input-placeholder {
        .heading-font;
        font-weight: 700;
-       color: @gray-lighter;
+       color: @gray-light;
     }
     :-moz-placeholder { /* Firefox 18- */
        .heading-font;
        font-weight: 700;
-       color: @gray-lighter;
+       color: @gray-light;
     }
     ::-moz-placeholder {  /* Firefox 19+ */
        .heading-font;
        font-weight: 700;
-       color: @gray-lighter;
+       color: @gray-light;
     }
     :-ms-input-placeholder {
        .heading-font;
        font-weight: 700;
-       color: @gray-lighter;
+       color: @gray-light;
     }
     .text-danger {
         color: @theme-danger;
@@ -651,6 +652,7 @@ ul.social-buttons {
 .btn.active,
 .btn:active:focus {
     outline: none;
+    color: @gray-darker;
 }
 
 .portfolio-modal {
