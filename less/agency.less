@@ -48,6 +48,18 @@ a.active {
     color: darken(@theme-primary, 10%);
 }
 
+a.dark
+{
+  text-decoration: underline;
+  color: @gray;
+}
+
+a.dark:hover,
+a.dark:focus,
+a.dark:active{
+    color: darken(@theme-primary, 30%);
+}
+
 h2 {
   .worts-font;
   font-weight: 500;
@@ -261,7 +273,7 @@ section {
 
 // Portfolio Section
 
-#portfolio {
+#meetups {
     .portfolio-item {
         margin: 0 0 15px;
         right: 0;
@@ -270,6 +282,9 @@ section {
             position: relative;
             max-width: 400px;
             margin: 0 auto;
+            &:hover {
+                opacity: .6;
+            }
             .portfolio-hover {
                 background: fade(@theme-primary, 90%);
                 position: absolute;
