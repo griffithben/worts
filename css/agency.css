@@ -325,14 +325,13 @@ section h3.section-subheading {
   text-transform: none;
 }
 #meetups .portfolio-item {
-  margin: 0 0 15px;
+  margin-bottom: 15px;
   right: 0;
 }
 #meetups .portfolio-item .portfolio-link {
   display: block;
   position: relative;
   max-width: 400px;
-  margin: 0 auto;
 }
 #meetups .portfolio-item .portfolio-link:hover {
   opacity: .6;
@@ -367,9 +366,10 @@ section h3.section-subheading {
 #meetups .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
+#meetups .portfolio-item .portfolio-image {
+  width: 100%;
+}
 #meetups .portfolio-item .portfolio-caption {
-  max-width: 400px;
-  margin: 0 auto;
   background-color: white;
   text-align: center;
   padding: 25px;

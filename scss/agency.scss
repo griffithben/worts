@@ -259,7 +259,6 @@ section {
             display: block;
             position: relative;
             max-width: 400px;
-            margin: 0 auto;
             .portfolio-hover {
                 background: fade-out($theme-primary, .9);
                 position: absolute;
@@ -288,12 +287,11 @@ section {
                     h4 {
                         margin: 0;
                     }
-                }                
-            }            
+                }
+            }
         }
         .portfolio-caption {
             max-width: 400px;
-            margin: 0 auto;
             background-color: white;
             text-align: center;
             padding: 25px;
@@ -574,7 +572,7 @@ section#contact {
        font-weight: 700;
        color: $gray-lighter;
     }
-    :-ms-input-placeholder {  
+    :-ms-input-placeholder {
        @include heading-font;
        font-weight: 700;
        color: $gray-lighter;
@@ -704,8 +702,8 @@ ul.social-buttons {
                 -webkit-transform: rotate(90deg);
                 /* Safari and Chrome */
                 z-index:1052;
-            }            
-        }        
+            }
+        }
     }
     .modal-backdrop {
         opacity: 0;
