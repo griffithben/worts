@@ -17,7 +17,7 @@ class Events
     {
       $item_class = (!($key % 2)) ? "timeline" : "timeline-inverted";
       $event_template = $this->getEventTemplate();
-      $event_template = $this->replace('date', $date, $event_template);
+      $event_template = $this->replace('date', $event->date, $event_template);
       $event_template = $this->replace('title', $event->title, $event_template);
       $event_template = $this->replace('image', $event->image, $event_template);
       $event_template = $this->replace('description', $event->description, $event_template);
