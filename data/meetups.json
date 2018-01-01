@@ -10,12 +10,12 @@
       {
         "name": "Tim Daugherty",
         "img": "tim_daugherty.jpg",
-        "talk": "will explain everything we need to know about _TBD_"
+        "talk": "will talk about the beer style Gruit and how it ties into the history of hops."
       },
       {
-        "name": "Ben Griffith",
-        "img": "ben_griffith.jpg",
-        "talk": "will explain everything we need to know about _TBD_"
+        "name": "Kyle Waller",
+        "img": "kyle_waller.jpg",
+        "talk": "will give us a rundown on how to ferment high ABV beers."
       },
       {
         "name": "Guess the beer win some crap!",
@@ -35,42 +35,27 @@
       {
         "name": "Lincoln Purvis",
         "img": "lincoln_purvis.jpg",
-        "talk": "will explain an instroduction to beer branding"
+        "talk": "will give us an introduction to beer branding and marketing"
       },
       {
-        "name": "Ben Griffith",
-        "img": "ben_griffith.jpg",
-        "talk": "will explain everything we need to know about _TBD_"
-      },
-      {
-        "name": "Guess the beer win some crap!",
-        "img": "garbage_can.png",
-        "talk": "Some amazing crap you can win. From our house to yours!"
+        "name": "Kraig Bridgeford",
+        "img": "kraig_bridgeford.jpg",
+        "talk": " will give us the rundown on how to barrel age and what all is involved with barreling"
       }
     ]
   },
   {
     "date": "Wednesday March 7<sup>th</sup>",
     "time": "6:30-8:30",
-    "location": "Dogmaster Distillery",
-    "location_url": "http://dogmasterdistillery.com/",
-    "location_img": "meetup-dogmaster.jpg",
+    "location": "TBA",
+    "location_url": "#",
+    "location_img": "meetup-tba.jpg",
     "speakers":
     [
       {
-        "name": "Tim Daugherty",
-        "img": "tim_daugherty.jpg",
-        "talk": "will explain everything we need to know about _TBD_"
-      },
-      {
-        "name": "Ben Griffiths",
-        "img": "ben_griffith.jpg",
-        "talk": "will explain everything we need to know about _TBD_"
-      },
-      {
-        "name": "Guess the beer win some crap!",
-        "img": "garbage_can.png",
-        "talk": "Some amazing crap you can win. From our house to yours!"
+        "name": "This Could Be You!",
+        "img": "generic.jpg",
+        "talk": "Have something you want to talk or show?  Let us know!"
       }
     ]
   }
