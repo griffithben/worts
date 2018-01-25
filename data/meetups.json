@@ -1,30 +1,5 @@
 [
   {
-    "date": "Wednesday January 3<sup>rd</sup>",
-    "time": "6:30-8:30",
-    "location": "Craft Beer Cellar",
-    "location_url": "https://columbia.craftbeercellar.com/",
-    "location_img": "meetup-cbc.jpg",
-    "speakers":
-    [
-      {
-        "name": "Tim Daugherty",
-        "img": "tim_daugherty.jpg",
-        "talk": "will talk about the beer style Gruit and how it ties into the history of hops."
-      },
-      {
-        "name": "Kyle Waller",
-        "img": "kyle_waller.jpg",
-        "talk": "will give us a rundown on how to ferment high ABV beers."
-      },
-      {
-        "name": "Guess the beer win some crap!",
-        "img": "garbage_can.png",
-        "talk": "Some amazing crap you can win. From our house to yours!"
-      }
-    ]
-  },
-  {
     "date": "Wednesday February 7<sup>th</sup>",
     "time": "6:30-8:30",
     "location": "Bur Oak Brewing Co.",
@@ -47,9 +22,29 @@
   {
     "date": "Wednesday March 7<sup>th</sup>",
     "time": "6:30-8:30",
-    "location": "TBA",
-    "location_url": "#",
-    "location_img": "meetup-tba.jpg",
+    "location": "Dogmaster Distillery",
+    "location_url": "http://dogmasterdistillery.com/",
+    "location_img": "meetup-dogmaster.jpg",
+    "speakers":
+    [
+      {
+        "name": "Tim Daugherty",
+        "img": "tim_daugherty.jpg",
+        "talk": "will talk about the beer style Gruit and how it ties into the history of hops."
+      },
+      {
+        "name": "This Could Be You!",
+        "img": "generic.jpg",
+        "talk": "Have something you want to talk or show?  Let us know!"
+      }
+    ]
+  },
+  {
+    "date": "Wednesday April 4<sup>th</sup>",
+    "time": "6:30-8:30",
+    "location": "Worts & All",
+    "location_url": "http://wortsandall.com/",
+    "location_img": "meetup-worts-and-all.jpg",
     "speakers":
     [
       {
