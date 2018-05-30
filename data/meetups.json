@@ -1,57 +1,83 @@
 [
   {
-    "date": "Wednesday February 7<sup>th</sup>",
+    "date": "Wednesday June 6<sup>th</sup>",
     "time": "6:30-8:30",
-    "location": "Bur Oak Brewing Co.",
-    "location_url": "https://buroakbeer.com/",
-    "location_img": "meetup-buroak.jpg",
+    "location": "Craft Beer Cellar",
+    "location_url": "https://columbia.craftbeercellar.com/",
+    "location_img": "meetup-cbc.jpg",
     "speakers":
     [
       {
         "name": "Lincoln Purvis",
         "img": "lincoln_purvis.jpg",
-        "talk": "will give us an introduction to beer branding and marketing"
+        "talk": "will talk about How to make Kick Ass Lagers That are Crushable AF!"
       },
       {
-        "name": "Kraig Bridgeford",
-        "img": "kraig_bridgeford.jpg",
-        "talk": " will give us the rundown on how to barrel age and what all is involved with barreling"
+        "name": "Ben Griffith",
+        "img": "ben_griffith.jpg",
+        "talk": "will get you addicted with The Metric System"
       }
     ]
   },
   {
-    "date": "Wednesday March 7<sup>th</sup>",
+    "date": "July TBD",
     "time": "6:30-8:30",
-    "location": "Dogmaster Distillery",
-    "location_url": "http://dogmasterdistillery.com/",
-    "location_img": "meetup-dogmaster.jpg",
+    "location": "Logboat Brewing Co.",
+    "location_url": "http://www.logboatbrewing.com/",
+    "location_img": "meetup-logboat.jpg",
+    "speakers":
+    [
+      {
+        "name": "Jesse Godec",
+        "img": "jesse_godec.jpg",
+        "talk": "will get you harvesting your own wild yeast!"
+      },
+      {
+        "name": "Josh Rein",
+        "img": "josh_rein.jpg",
+        "talk": "the head brewer at Logboat will show us a rundown of the brewery."
+      }
+    ]
+  },
+  {
+    "date": "Wednesday August 1<sup>st</sup>",
+    "time": "6:30-8:30",
+    "location": "Bur Oak Brewing Co.",
+    "location_url": "http://theworts.com/",
+    "location_img": "meetup-buroak.jpg",
+    "speakers":
+    [
+      {
+        "name": "Brandon Nesiba",
+        "img": "brandon_nesiba.jpg",
+        "talk": "will talk about the different varieties of honey used in mead.  With samples!"
+      },
+      {
+        "name": "Show & Tell",
+        "img": "generic.jpg",
+        "talk": "open presentations and conversations about everyones brew rig and processes."
+      }
+    ]
+  },
+  {
+    "date": "Wednesday September 5<sup>th</sup>",
+    "time": "6:30-8:30",
+    "location": "Bur Oak Brewing Co.",
+    "location_url": "http://theworts.com/",
+    "location_img": "meetup-buroak.jpg",
     "speakers":
     [
       {
         "name": "Tim Daugherty",
         "img": "tim_daugherty.jpg",
-        "talk": "will talk about the beer style Gruit and how it ties into the history of hops."
+        "talk": "will do a group lead on analyzing and judging beer with BJCP scoresheets."
       },
       {
-        "name": "This Could Be You!",
+        "name": "Show & Tell",
         "img": "generic.jpg",
-        "talk": "Have something you want to talk or show?  Let us know!"
-      }
-    ]
-  },
-  {
-    "date": "Wednesday April 4<sup>th</sup>",
-    "time": "6:30-8:30",
-    "location": "Worts & All",
-    "location_url": "http://wortsandall.com/",
-    "location_img": "meetup-worts-and-all.jpg",
-    "speakers":
-    [
-      {
-        "name": "This Could Be You!",
-        "img": "generic.jpg",
-        "talk": "Have something you want to talk or show?  Let us know!"
+        "talk": "open presentations and conversations about everyones brew rig and processes."
       }
     ]
   }
+
 ]

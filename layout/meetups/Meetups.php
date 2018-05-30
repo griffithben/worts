@@ -5,6 +5,7 @@ class Meetups
   public $meetups = [];
   public $meetup_template = null;
   public $speaker_template = null;
+  protected $maxMeetupsDisplayed = 3;
 
   public function __construct(array $meetups)
   {
@@ -14,8 +15,12 @@ class Meetups
   public function renderMeetups()
   {
     $out = "";
+    $count = 0;
     foreach($this->meetups as $meetup)
     {
+      if($count >= $this->maxMeetupsDisplayed)
+        break;
+
       $meetup_template = $this->getMeetupTemplate();
       $meetup_template = $this->replace('date', $meetup->date, $meetup_template);
       $meetup_template = $this->replace('time', $meetup->time, $meetup_template);
@@ -24,6 +29,7 @@ class Meetups
       $meetup_template = $this->replace('location_img', $meetup->location_img, $meetup_template);
       $meetup_template = $this->replace('speakers', $this->renderSpeakers($meetup->speakers), $meetup_template);
       $out .= $meetup_template;
+      $count++;
     }
 
     return $out;
