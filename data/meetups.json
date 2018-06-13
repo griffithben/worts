@@ -20,7 +20,7 @@
     ]
   },
   {
-    "date": "Monday July 18<sup>th</sup>",
+    "date": "Monday July 16<sup>th</sup>",
     "time": "6:30-8:30",
     "location": "Logboat Brewing Co.",
     "location_url": "http://www.logboatbrewing.com/",
@@ -62,9 +62,9 @@
   {
     "date": "Wednesday September 5<sup>th</sup>",
     "time": "6:30-8:30",
-    "location": "Bur Oak Brewing Co.",
-    "location_url": "http://theworts.com/",
-    "location_img": "meetup-buroak.jpg",
+    "location": "Worts & All",
+    "location_url": "http://wortsandall.com/",
+    "location_img": "meetup-worts-and-all.jpg",
     "speakers":
     [
       {
